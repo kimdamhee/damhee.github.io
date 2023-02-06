@@ -1,0 +1,305 @@
+@charset "UTF-8";
+
+/*===== reset ======*/
+.mb-container, .poll-container {background:rgba(255,255,255,0.7);}
+
+/*===== Poll View =====*/
+.ratio {color:#FFF; background:rgba(188,123,232,0.5);}
+td {font-family: 'Noto Sans KR', sans-serif; height:30px; font-size:15px; text-align:center; border-bottom:1px solid rgb(188,123,232);}
+.pv-question, .pv-item {width:420px; margin:20px auto;}
+.pv-question td:nth-child(1) {width:70px;}
+.pv-question td:nth-child(2) {text-align:center;}
+.pv-item > td:nth-child(1) {width:70px;}
+.pv-item td:nth-child(2) {width:80px;}
+.pv-item td:nth-child(3) {width:215px;}
+.pv-item td:nth-child(4) {width:55px;}
+
+/*===== idc-container =====*/
+.idc-container h5 {padding:20px 0; font-size:32px; color:rgba(188,123,232,0.6); text-align:center;}
+.idc-container table {width:100%; padding:20px; background:rgba(255,255,255,0.7);}
+.idc-container tr td:nth-child(1) {background:rgba(188,123,232,0.2); text-align:center;}
+.idc-container tr td:nth-child(2) {width:80%; padding:5px 0;  text-align:left;}
+.idc-container td {height:40px; border-bottom:1px solid rgb(188,123,232);}
+.idc-container input[type=text], .idc-container input[type=email] {width:100%; font-size:15px; border:0;}
+.idc-container textarea {width:80%; height:200px; font-size:15px; resize: vertical;}
+.idc-container #counter {width:50px;}
+
+/*===== memberList =====*/
+.search-row:hover {color:#666; background:#fff;}
+.search-row:hover #userid {color:#666;}
+.search-row li {border-bottom:1px solid violet; letter-spacing:-1px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+
+#userid {display:inline-block; color:#f2f2f2; height:35px; line-height:35px;}
+
+.qtv-container .contact-row {letter-spacing:-1px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+
+
+@media screen and (min-width:1400px) {
+	.pagetitle h4 {padding-top:100px; font-size:54px; color:rgba(188,123,232,0.6); text-align:center;}
+	.mb-container, .poll-container {width:80%; height:auto; margin:50px auto; padding:50px; background:rgba(255,255,255,0.7);}
+	.mb-container li {float:none; padding:5px 0;}
+	.mbtxt {font-size:24px;}
+	
+	.check {float:right; height:40px; padding:0 10px; line-height:40px;}
+	
+	/*===== Member MyPage =====*/
+	.table-mypage {width:100%;}
+	.table-mypage td {padding:5px 0;}
+	.table-mypage tr td:nth-child(1) {background:rgba(188,123,232,0.2);}
+	
+	/*===== Member Join =====*/
+	.join-container {width:500px; height:auto; margin:50px auto; padding:50px; background:rgba(255,255,255,0.7);}
+	.form-control {width:100%; height:40px; border-radius:20px; border:1px solid violet; outline:0; padding:0 10px;}
+	.input-id, .input-zipcode {float:left; width:67%;}
+	.input-birth {float:right; width:340px;}
+	.join-container li:nth-child(5), .join-container li:nth-child(6), .join-container li:nth-child(10) {line-height:40px;}
+	.frm-btn {margin-top:30px;}
+	
+	/*===== Member Login =====*/
+	.login-container {width:500px; margin:50px auto;}
+	
+	/*===== Member Login Success =====*/
+	.login-container p {text-align:center;}
+	.login-container strong {color:rgb(182,106,189);}
+	
+	/*===== Member Admin =====*/
+  .sub-container {width:1400px; margin:150px auto;}
+  .sub-container h4 {margin:0 auto; font-size:44px; background:linear-gradient(to right, rgb(77, 2, 132), #e8e8e8);	
+  -webkit-text-fill-color:transparent;  -webkit-background-clip:text;  text-align:center; text-transform:capitalize;}
+	
+	.src-container {width:100%; font-weight:300;}
+
+	.search-row {float:left; width:24%; height:470px; margin:1% 1% 1% 0; padding:35px; background:rgba(188,123,232,0.05); border:2px solid violet; border-radius:40px; transition:all 0.2s ease;}
+	.search-row h6 {font-size:20px; line-height:40px; text-align:center; border-bottom:2px dashed violet;}
+	.search-row .mbtt {font-weight:bold; text-align:left;}
+	.search-row .mbif {float:right;}
+	.search-row li {width:100%; font-size:16px; line-height:40px;}
+	.search-row li:nth-child(2) {padding-top:20px;}
+	
+	.src-container table {width:100%; background:rgba(255,255,255,0.7);}
+	.src-container tr:first-child  th {font-size:16px; background:rgba(188,123,232,0.2);}
+	
+	
+	.qtv-container tr:nth-child(2) td:nth-child(7) {width:0;}
+	.search-box {width:320px; margin:30px auto; background:#fff;}
+	
+	/*===== Poll List =====*/
+	.poll-container h5 {font-size:18px; color:rgb(188,123,232);}
+	.pl-container {width:100%; margin:0 auto;}
+	.pl-container .pl-quest {width:60%; margin:30px auto;}
+	.pl-sm-container {width:350px; margin:0 auto;}
+	h5.pl-list {margin-top:50px;}
+	
+	/*===== Poll Form =====*/
+	.pf-insert {width:80%; margin:50px auto;}
+	.pf-insert tr td:nth-child(2) {text-align:left;}
+	.pf-insert td {height:40px;}
+	.pf-insert, .pf-item {text-align:center;}
+	
+	/*===== Contact View =====*/
+	#cdelete {width:80px;}
+}
+
+@media screen and (min-width:1050px) and (max-width:1399px) {
+	.pagetitle h4 {padding-top:100px; font-size:54px; color:rgba(188,123,232,0.6); text-align:center;}
+	.mb-container, .poll-container {width:80%; height:auto; margin:50px auto; padding:50px;}
+	.mb-container li {float:none; padding:5px 0;}
+	.mbtxt {font-size:24px;}
+	.check {float:right; padding:0 5px; height:40px; line-height:40px;}
+	
+	/*===== Member MyPage =====*/
+	.table-mypage {width:100%;}
+	.table-mypage td {padding:5px 0;}
+	.table-mypage tr td:nth-child(1) {width:120px; background:rgba(188,123,232,0.2);}
+	
+	/*===== Member Join =====*/
+	.join-container {width:500px; height:auto; margin:50px auto; padding:50px; background:rgba(255,255,255,0.7);}
+	.form-control {width:100%; height:40px; border-radius:20px; border:1px solid violet; outline:0; padding:0 10px;}
+	.input-id, .input-zipcode {float:left; width:68%;}
+	.input-birth {float:right; width:340px;}
+	.join-container li:nth-child(5), .join-container li:nth-child(6), .join-container li:nth-child(10) {line-height:40px;}
+	.frm-btn {margin-top:30px;}
+	
+	/*===== Member Login =====*/
+	.login-container {width:500px; margin:50px auto;}
+	
+	/*===== Member Login Success =====*/
+	.login-container p {text-align:center;}
+	.login-container strong {color:rgb(182,106,189);}
+	
+	/*===== Member Admin =====*/
+  .sub-container {width:100%; margin:150px auto;}
+  .sub-container h4 {margin:0 auto; font-size:44px; background:linear-gradient(to right, rgb(77, 2, 132), #e8e8e8);	
+  -webkit-text-fill-color:transparent;  -webkit-background-clip:text;  text-align:center; text-transform:capitalize;}
+
+	.search-row {float:left; width:31%; height:470px; margin:1%; padding:35px; background:rgba(188,123,232,0.05); border:2px solid violet; border-radius:40px; transition:all 0.2s ease;}
+	.search-row h6 {font-size:20px; line-height:40px; text-align:center; border-bottom:2px dashed lightcoral;}
+	.search-row .mbtt {font-weight:bold; text-align:left;}
+	.search-row .mbif {float:right;}
+	.search-row li {width:100%; font-size:16px; line-height:40px;}
+	.search-row li:nth-child(2) {padding-top:20px;}
+	
+	.src-container table {width:100%; background:rgba(255,255,255,0.7);}
+	.src-container tr:first-child  th {font-size:16px; background:rgba(188,123,232,0.2);}
+	
+	
+	.qtv-container tr:nth-child(2) td:nth-child(7) {width:0;}
+	.search-box {width:320px; margin:30px; background:#fff;}
+	
+	/*===== Poll List =====*/
+	.poll-container h5 {font-size:18px; color:rgb(188,123,232);}
+	.pl-container {width:100%; margin:0 auto;}
+	.pl-container .pl-quest {width:60%; margin:30px auto;}
+	.pl-sm-container {width:350px; margin:0 auto;}
+	h5.pl-list {margin-top:50px;}
+	
+	/*===== Poll Form =====*/
+	.pf-insert {width:80%; margin:50px auto;}
+	.pf-insert tr td:nth-child(2) {text-align:left;}
+	.pf-insert td {height:40px;}
+	.pf-insert, .pf-item {text-align:center;}
+	
+	/*===== Contact View =====*/
+	#cdelete {width:80px;}
+}
+
+@media screen and (min-width:600px) and (max-width:1049px) {
+	.pagetitle h4 {padding-top:160px; font-size:26px; color:rgba(188,123,232,0.6); text-align:center;}
+	.mb-container, .poll-container {width:100%; height:auto; margin:0 auto; padding:50px;}
+	.mb-container li {float:none; padding:5px 0;}
+	.mbtxt {font-size:18px;}
+	
+	.flex .btn {height:40px; font-size:13px; line-height:40px; text-align:center;  border-radius:20px; transition:all 0.4s ease;}
+	.check {float:right; height:40px; line-height:40px;}
+	
+	/*===== Member MyPage =====*/
+	.table-mypage {width:100%;}
+	.table-mypage td {padding:5px 0;}
+	.table-mypage tr td:nth-child(1) {width:120px; background:rgba(188,123,232,0.2);}
+	
+	/*===== Member Join =====*/
+	.join-container {width:430px; height:auto; margin:20px auto; padding:25px; background:rgba(255,255,255,0.7);}
+	.form-control {width:100%; height:40px; border-radius:20px; border:1px solid violet; outline:0; padding:0 10px;}
+	.input-id, .input-zipcode {float:left; width:60%;}
+	.input-birth {float:right; width:300px;}
+	.join-container li:nth-child(5), .join-container li:nth-child(6), .join-container li:nth-child(10) {line-height:40px;}
+	.frm-btn {margin-top:20px;}
+	
+	/*===== Member Login =====*/
+	.login-container {width:500px; margin:50px auto;}
+	
+	/*===== Member Login Success =====*/
+	.login-container p {text-align:center;}
+	.login-container strong {color:rgb(182,106,189);}
+	
+	/*===== Member Admin =====*/
+  .sub-container {width:100%; margin:150px auto; height:1700px;}
+  .sub-container h4 {width:320px; margin:0 auto; font-size:44px; background:linear-gradient(to right, rgb(77, 2, 132), #e8e8e8);
+  -webkit-text-fill-color:transparent;  -webkit-background-clip:text;  text-align:center; text-transform:capitalize;}
+	
+	.src-container {width:100%; font-weight:300;}
+	.src-container table {width:100%; background:rgba(255,255,255,0.7);}
+	.src-container tr:first-child  th {font-size:16px; background:rgba(255,160,180,0.2);}
+	
+	.mbl-container {height:1100px;}
+
+	.search-row {float:left; width:46%; height:470px; margin:1% 2%; padding:30px; background:rgba(188,123,232,0.05); border:2px solid violet; border-radius:40px; transition:all 0.2s ease;}
+	.search-row h6 {font-size:20px; line-height:40px; text-align:center; border-bottom:2px dashed violet;}
+	.search-row .mbtt {font-weight:bold; text-align:left;}
+	.search-row .mbif {float:right;}
+	#userid {height:35px; line-height:35px;}
+	
+	.search-row li {width:100%; font-size:14px; line-height:40px;}
+	.search-row li:nth-child(2) {padding-top:20px;}
+
+	.qtv-container tr:nth-child(2) td:nth-child(7) {width:0;}
+	.search-box {width:320px; margin:30px; background:#fff;}
+	
+	/*===== Poll List =====*/
+	.poll-container h5 {font-size:18px; color:rgb(188,123,232);}
+	.pl-container {width:100%; margin:0 auto;}
+	.pl-container .pl-quest {width:80%; margin:30px auto;}
+	.pl-sm-container {width:350px; margin:0 auto;}
+	h5.pl-list {margin-top:50px;}
+	
+	/*===== Poll Form =====*/
+	.pf-insert {width:80%; margin:50px auto;}
+	.pf-insert tr td:nth-child(2) {text-align:left;}
+	.pf-insert td {height:40px;}
+	.pf-insert, .pf-item {text-align:center;}
+	
+	/*===== Contact View =====*/
+	#cdelete {width:80px;}
+}
+
+@media screen and (max-width:599px) {
+	.pagetitle h4 {padding-top:200px; font-size:26px; color:rgba(188,123,232,0.6); text-align:center;}
+	.mb-container, .poll-container {width:100%; height:auto; margin:50px auto; padding:50px; font-size:12px; background:rgba(255,255,255,0.7);}
+	.mb-container li {float:none; padding:5px 0;}
+	.mbtxt {font-size:18px;}
+	
+	.check {float:right; height:40px; line-height:40px;}
+
+	.flex .btn {height:40px; font-size:12px; line-height:40px; text-align:center;  border-radius:20px; transition:all 0.4s ease;}
+	
+	/*===== Member MyPage =====*/
+	.table-mypage {width:100%;}
+	.table-mypage td {padding:5px 0;}
+	.table-mypage tr td:nth-child(1) {width:120px; background:rgba(188,123,232,0.2);}
+	
+	/*===== Member Join =====*/
+	.join-container {width:430px; height:auto; margin:20px auto; padding:25px; background:rgba(255,255,255,0.7);}
+	.form-control {width:100%; height:40px; border-radius:20px; border:1px solid violet; outline:0; padding:0 10px;}
+	.input-id, .input-zipcode {float:left; width:60%;}
+	.input-birth {float:right; width:300px;}
+	.join-container li:nth-child(5), .join-container li:nth-child(6), .join-container li:nth-child(10) {line-height:40px;}
+	
+	.frm-btn {margin-top:20px;}
+
+	/*===== Member Login =====*/
+	.login-container {width:100%; margin:25px auto;}
+	.login-container .input-box {width:100%;}
+	
+	/*===== Member Login Success =====*/
+	.login-container p {text-align:center;}
+	.login-container strong {color:rgb(182,106,189);}
+	
+	/*===== Member Admin =====*/
+  .sub-container {width:320px; margin:150px auto; height:2700px;}
+  .sub-container h4 {width:320px; margin:0 auto; font-size:44px; background:linear-gradient(to right, rgb(77, 2, 132), #e8e8e8);
+  -webkit-text-fill-color:transparent;  -webkit-background-clip:text;  text-align:center; text-transform:capitalize;}
+	
+	.src-container {width:100%; font-weight:300;}
+	.src-container table {width:100%; background:rgba(255,255,255,0.7);}
+	.src-container tr:first-child  th {font-size:16px; background:rgba(188,123,232,0.2);}
+	
+	.mbl-container {height:1100px;}
+	.search-row {float:left; width:100%; height:470px; margin-bottom:20px; padding:35px; background:rgba(188,123,232,0.05); border:2px solid violet; border-radius:40px; transition:all 0.2s ease;}
+	.search-row h6 {font-size:20px; line-height:40px; text-align:center; border-bottom:2px dashed violet;}
+	.search-row .mbtt {font-weight:bold; text-align:left;}
+	.search-row .mbif {float:right;}
+	.search-row li {width:100%; font-size:16px; line-height:40px;}
+	.search-row li:nth-child(2) {padding-top:20px;}
+
+	.qtv-container tr:nth-child(2) td:nth-child(7) {width:0;}
+	.search-box {margin:30px auto; background:#fff;}
+	
+	/*===== Poll List =====*/
+	.poll-container h5 {font-size:18px; color:rgb(188,123,232);}
+	.pl-container {width:100%; margin:0 auto;}
+	.pl-container .pl-quest {width:80%; margin:30px auto;}
+	.pl-sm-container {width:350px; margin:0 auto;}
+	h5.pl-list {margin-top:50px;}
+	
+	/*===== Poll Form =====*/
+	.pf-insert {width:80%; margin:50px auto;}
+	.pf-insert tr td:nth-child(2) {text-align:left;}
+	.pf-insert td {height:40px;}
+	.pf-insert, .pf-item {text-align:center;}
+	
+	/*===== Contact View =====*/
+	#cdelete {width:60px; padding:0 5px; font-size:10px;}
+}
+
+
+

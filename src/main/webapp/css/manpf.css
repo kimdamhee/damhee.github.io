@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+
+@media screen and (min-width:1400px) {
+  .ma-con-1 {left:0; text-align:right;}
+  .ma-con-3 {left:-200px; text-align:right;}
+  .ma-con-2, .ma-con-4 {right:-200px;}
+
+  .ma-con-1 {top:150px; background:url(../imgs/man-pf/man-pf-bg-01.jpg)no-repeat center center; background-size:cover;}
+  .ma-con-2 {top:700px; background:url(../imgs/man-pf/man-pf-bg-02.jpg)no-repeat center center; background-size:cover;}
+  .ma-con-3 {top:1250px; background:url(../imgs/man-pf/man-pf-bg-03.jpg)no-repeat center center; background-size:cover;}
+  .ma-con-4 {top:1800px; background:url(../imgs/man-pf/man-pf-bg-04.jpg)no-repeat center center; background-size:cover;}
+}
+
+@media screen and (min-width:1050px) and (max-width:1399px) {
+  .ma-con-1 {left:0; text-align:right;}
+  .ma-con-3 {left:-200px; text-align:right;}
+  .ma-con-2, .ma-con-4 {right:-200px;}
+
+  .ma-con-1 {top:150px; background:url(../imgs/man-pf/man-pf-bg-01.jpg)no-repeat center center; background-size:cover;}
+  .ma-con-2 {top:650px; background:url(../imgs/man-pf/man-pf-bg-02.jpg)no-repeat center center; background-size:cover;}
+  .ma-con-3 {top:1150px; background:url(../imgs/man-pf/man-pf-bg-03.jpg)no-repeat center center; background-size:cover;}
+  .ma-con-4 {top:1650px; background:url(../imgs/man-pf/man-pf-bg-04.jpg)no-repeat center center; background-size:cover;}
+}
+
+@media screen and (min-width:600px) and (max-width:1049px) {
+  .ma-con-1 {left:0; text-align:right;}
+  .ma-con-3 {left:-100px; text-align:right;}
+  .ma-con-2, .ma-con-4 {right:-100px;}
+
+  .ma-con-1 {top:100px; background:url(../imgs/man-pf/man-pf-bg-01.jpg)no-repeat center center; background-size:cover;}
+  .ma-con-2 {top:400px; background:url(../imgs/man-pf/man-pf-bg-02.jpg)no-repeat center center; background-size:cover;}
+  .ma-con-3 {top:700px; background:url(../imgs/man-pf/man-pf-bg-03.jpg)no-repeat center center; background-size:cover;}
+  .ma-con-4 {top:1000px; background:url(../imgs/man-pf/man-pf-bg-04.jpg)no-repeat center center; background-size:cover;}
+}
+
+@media screen and (max-width:599px) {
+  .ma-con-1, .ma-con-3 {text-align:right;}
+
+  .ma-con-1 {background:url(../imgs/man-pf/man-pf-bg-01.jpg)no-repeat center center; background-size:cover;}
+  .ma-con-2 {background:url(../imgs/man-pf/man-pf-bg-02.jpg)no-repeat center center; background-size:cover;}
+  .ma-con-3 {background:url(../imgs/man-pf/man-pf-bg-03.jpg)no-repeat center center; background-size:cover;}
+  .ma-con-4 {background:url(../imgs/man-pf/man-pf-bg-04.jpg)no-repeat center center; background-size:cover;}
+}

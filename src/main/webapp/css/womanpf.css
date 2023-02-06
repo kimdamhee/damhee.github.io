@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+
+@media screen and (min-width:1400px) {
+  .wo-con-1 {left:0; text-align:right;}
+  .wo-con-3 {left:-200px; text-align:right;}
+  .wo-con-2, .wo-con-4 {right:-200px;}
+
+  .wo-con-1 {top:150px; background:url(../imgs/woman-pf/woman-pf-bg-01.jpg)no-repeat center center; background-size:cover;}
+  .wo-con-2 {top:700px; background:url(../imgs/woman-pf/woman-pf-bg-02.jpg)no-repeat center center; background-size:cover;}
+  .wo-con-3 {top:1250px; background:url(../imgs/woman-pf/woman-pf-bg-03.jpg)no-repeat center center; background-size:cover;}
+  .wo-con-4 {top:1800px; background:url(../imgs/woman-pf/woman-pf-bg-04.jpg)no-repeat center center; background-size:cover;}
+}
+
+@media screen and (min-width:1050px) and (max-width:1399px) {
+  .wo-con-1 {left:0; text-align:right;}
+  .wo-con-3 {left:-200px; text-align:right;}
+  .wo-con-2, .wo-con-4 {right:-200px;}
+
+  .wo-con-1 {top:150px; background:url(../imgs/woman-pf/woman-pf-bg-01.jpg)no-repeat center center; background-size:cover;}
+  .wo-con-2 {top:650px; background:url(../imgs/woman-pf/woman-pf-bg-02.jpg)no-repeat center center; background-size:cover;}
+  .wo-con-3 {top:1150px; background:url(../imgs/woman-pf/woman-pf-bg-03.jpg)no-repeat center center; background-size:cover;}
+  .wo-con-4 {top:1650px; background:url(../imgs/woman-pf/woman-pf-bg-04.jpg)no-repeat center center; background-size:cover;}
+}
+
+@media screen and (min-width:600px) and (max-width:1049px) {
+  .wo-con-1 {left:0; text-align:right;}
+  .wo-con-3 {left:-100px; text-align:right;}
+  .wo-con-2, .wo-con-4 {right:-100px;}
+
+  .wo-con-1 {top:100px; background:url(../imgs/woman-pf/woman-pf-bg-01.jpg)no-repeat center center; background-size:cover;}
+  .wo-con-2 {top:400px; background:url(../imgs/woman-pf/woman-pf-bg-02.jpg)no-repeat center center; background-size:cover;}
+  .wo-con-3 {top:700px; background:url(../imgs/woman-pf/woman-pf-bg-03.jpg)no-repeat center center; background-size:cover;}
+  .wo-con-4 {top:1000px; background:url(../imgs/woman-pf/woman-pf-bg-04.jpg)no-repeat center center; background-size:cover;}
+}
+
+@media screen and (max-width:599px) {
+  .wo-con-1, .wo-con-3 {text-align:right;}
+
+  .wo-con-1 {background:url(../imgs/woman-pf/woman-pf-bg-01.jpg)no-repeat center center; background-size:cover;}
+  .wo-con-2 {background:url(../imgs/woman-pf/woman-pf-bg-02.jpg)no-repeat center center; background-size:cover;}
+  .wo-con-3 {background:url(../imgs/woman-pf/woman-pf-bg-03.jpg)no-repeat center center; background-size:cover;}
+  .wo-con-4 {background:url(../imgs/woman-pf/woman-pf-bg-04.jpg)no-repeat center center; background-size:cover;}
+}

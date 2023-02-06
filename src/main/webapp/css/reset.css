@@ -1,0 +1,54 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500&family=Orbitron:wght@400;600;900&display=swap');
+/*font-family: 'Noto Sans KR', sans-serif;    font-family: 'Orbitron', sans-serif;*/
+
+
+@keyframes scrAni {
+  0% {top:0px;}
+  100% {color:rgb(255,160,180); top:10px;}
+}
+
+* {margin:0; padding:0; box-sizing:border-box;}
+
+ul li {float:left; list-style:none;}
+a, button {display:block; color:#f2f2f2; text-decoration:none; outline:0; border:0;}
+button {font-family: 'Noto Sans KR'; cursor:pointer; background:none;}
+img {outline:0; border:0;}
+.clear {clear:both;}
+h1, h2, h3, h4, h5, h6 {font-family: 'Orbitron', sans-serif;}
+body {font-family: 'Noto Sans KR', sans-serif; font-size:13px; color:#f2f2f2; background:#333;}
+
+
+input, textarea {font-family: 'Noto Sans KR', sans-serif; font-size:13px;}
+input {color:#f2f2f2; background:none; border:1px solid #333;}
+input[type=checkbox], input[type=radio] {accent-color:rgba(255,160,180,0.5);}
+input:focus {background:rgba(188, 123, 232,0.2);}
+table {color:#666; border:5px solid rgba(255,160,180,0.4); border-spacing:0px; border-radius:10px;}
+.flex {display:flex; justify-content:center; padding-top:30px;}
+.flex a {height:40px; padding:0 20px; line-height:40px;}
+.btn {margin:0 5px; padding:0 20px; height:40px; line-height:40px; text-align:center; border-radius:20px; cursor:pointer; transition:all 0.4s ease;}
+
+.btn-white {border:1px solid #333;}
+.btn-white:hover {color:#fff; background:rgba(0,0,0,0.7);}
+
+.btn-pink {border:1px solid rgb(232,132,197);}
+.btn-pink:hover {color:#fff; background:rgba(232,132,197,0.7);}
+
+.btn-orange {border:1px solid rgb(252,160,73);}
+.btn-orange:hover {color:#fff; background:rgba(252,160,73,0.7);}
+
+.btn-blue {border:1px solid rgb(73,174,252);}
+.btn-blue:hover {color:#fff; background:rgba(73,174,252,0.7);}
+  
+  
+::-webkit-scrollbar {
+  width: 15px;  /* 세로축 스크롤바 길이 */
+  height: 0px;  /* 가로축 스크롤바 길이 */
+}
+::-webkit-scrollbar-track-piece {
+  background-color: white;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: pink;
+}
